@@ -98,12 +98,12 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents txtDatabasePath As TextBox
-    Friend WithEvents btnBrowse As Button
-    Friend WithEvents txtOldNIK As TextBox
-    Friend WithEvents txtNewNIK As TextBox
-    Friend WithEvents btnUpdate As Button
-    Friend WithEvents lblDatabase As Label
-    Friend WithEvents lblOldNIK As Label
-    Friend WithEvents lblNewNIK As Label
+    Friend WithEvents txtDatabasePath As System.Windows.Forms.TextBox
+    Friend WithEvents btnBrowse As System.Windows.Forms.Button
+    Friend WithEvents txtOldNIK As System.Windows.Forms.TextBox
+    Friend WithEvents txtNewNIK As System.Windows.Forms.TextBox
+    Friend WithEvents btnUpdate As System.Windows.Forms.Button
+    Friend WithEvents lblDatabase As System.Windows.Forms.Label
+    Friend WithEvents lblOldNIK As System.Windows.Forms.Label
+    Friend WithEvents lblNewNIK As System.Windows.Forms.Label
 End Class
